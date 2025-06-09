@@ -22,7 +22,7 @@ public class EvenOrOdd {
         System.err.print("Enter a number: ");
         int input = scanner.nextInt();
 
-        //call the method
+        //calling the method
         evenOrOdd(input);
 
     }

@@ -7,13 +7,13 @@ class SimpleIf
 		{
 			System.out.println("SRH");
 		}
-		if(false)
-		{
-			System.out.println("RCB");
-		}
 		if(10<20)
 		{
 			System.out.println("CSK");
+		}
+		if(true)
+		{
+			System.out.println("RCB");
 		}
 		
 		System.out.println("End");

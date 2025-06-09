@@ -5,6 +5,7 @@ public class EvenOrOdd {
     // Method to check even or odd
     public static void evenOrOdd(int number)
     {
+        //check whether number is Even
         if(number%2==0)
         {
             System.out.println(number + " is even");

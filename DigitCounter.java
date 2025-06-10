@@ -4,7 +4,7 @@ public class DigitCounter {
     public static int countDigits(int number) {
         int count = 0;
 
-         // Handle negative numbers manually
+         // Handling negative numbers manually
         if (number < 0) {
             number = -number;
         }

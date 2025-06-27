@@ -15,7 +15,7 @@ public class SpyNumber {
             int digit = number % 10;
             sum = sum + digit;
             product = product * digit;
-            number /= 10;
+            number = number/10;
         }
 
         if (sum == product) {

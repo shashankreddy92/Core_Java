@@ -26,7 +26,7 @@
 
     public static void main(String[] args)
     {
-        isPalindromeNumber(121);
+        isPalindromeNumber(265);
     }
 
     

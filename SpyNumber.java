@@ -13,8 +13,8 @@ public class SpyNumber {
 
         while (number > 0) {
             int digit = number % 10;
-            sum += digit;
-            product *= digit;
+            sum = sum + digit;
+            product = product * digit;
             number /= 10;
         }
 

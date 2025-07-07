@@ -6,9 +6,9 @@ class ReadDigits {
 
         while(num!=0)
         {
-            int rem = num%10;
+            int rem = num%10;//to get last number
             System.out.println(rem);
-            num= num/10;
+            num= num/10;//to remove last number
         }
     }
     
